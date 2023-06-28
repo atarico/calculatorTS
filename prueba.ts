@@ -25,6 +25,7 @@ const cleanArguments = parseArguments(process.argv)
 
 
 console.log(process.argv);
+//process.argv devuelve un array en donde las primeros dos posiciones son los scripts del package.json
 
 
 const a: number = Number(cleanArguments[0])
